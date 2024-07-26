@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>APP</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h2>{{>header}}</h2>
+
+    <div class="div1-index">
+        <p class="all-title"> this is {{title}} page with HBS</p>
+
+        <table class="table table-dark table-service">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Photo</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Age</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <div class="div-img-team">
+                            <img class="img-team" src={{obj1.img2}} alt="">
+                        </div>
+                    </td>
+                    <td>{{obj1.fname}}</td>
+                    <td>{{obj1.lname}}</td>
+                    <td>{{obj1.city}}</td>
+                    <td>{{obj1.age}}</td>
+                </tr>
+            </tbody>
+             <tbody>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        <div class="div-img-team">
+                            <img class="img-team" src={{obj2.img2}} alt="">
+                        </div>
+                    </td>
+                    <td>{{obj2.fname}}</td>
+                    <td>{{obj2.lname}}</td>
+                    <td>{{obj2.city}}</td>
+                    <td>{{obj2.age}}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        <div class="div-img-team">
+                            <img class="img-team" src={{obj3.img2}} alt="">
+                        </div>
+                    </td>
+                    <td>{{obj3.fname}}</td>
+                    <td>{{obj3.lname}}</td>
+                    <td>{{obj3.city}}</td>
+                    <td>{{obj3.age}}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>
+                        <div class="div-img-team">
+                            <img class="img-team" src={{obj4.img2}} alt="">
+                        </div>
+                    </td>
+                    <td>{{obj4.fname}}</td>
+                    <td>{{obj4.lname}}</td>
+                    <td>{{obj4.city}}</td>
+                    <td>{{obj4.age}}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>
+                        <div class="div-img-team">
+                            <img class="img-team" src={{obj5.img2}} alt="">
+                        </div>
+                    </td>
+                    <td>{{obj5.fname}}</td>
+                    <td>{{obj5.lname}}</td>
+                    <td>{{obj5.city}}</td>
+                    <td>{{obj5.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="foot"><span>All rights &copy; reserved to this site in 2024</span></div>
+
+
+</body>
+
+</html>
